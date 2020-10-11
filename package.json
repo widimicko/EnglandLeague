@@ -1,0 +1,19 @@
+{
+  "name": "submission2",
+  "version": "1.0.0",
+  "description": "submission2",
+  "main": "service-worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "web-push": "^3.4.4"
+  },
+  "dependencies": {
+    "idb": "^5.0.6"
+  }
+}

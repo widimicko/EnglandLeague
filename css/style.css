@@ -1,0 +1,106 @@
+
+/* ==== Home Style ==== */
+.standing-title {
+    padding: 3%;
+}
+
+
+/*==== Team Style ====*/
+.team-information {
+    margin-bottom: 20px;
+}
+
+.logo-team {
+    max-width: 200px;
+	padding-top: 30px;
+	margin: auto;
+}
+
+.team-member {
+    font-size: 1.7em;
+    
+}
+
+
+.player-name {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.standing-name {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.favourite-team {
+    padding: 5%;
+    text-align: center;
+}
+
+/* ==== About Style ==== */
+.intro {
+    margin-bottom: 70px;
+}
+
+.line {
+    width: 40%;
+    height: 4px;
+    background-color: black;
+}
+
+.contact {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 7em;
+    text-align: center;
+}
+
+.sosmed-list {
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.sosmed {
+    flex-basis: 25%;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.sosmed:hover {
+    -webkit-transform: scale(1.2) rotate(1080deg);
+    -moz-transform: scale(1.2) rotate(1080deg);
+    -o-transform: scale(1.2) rotate(1080deg);
+    -ms-transform: scale(1.2) rotate(1080deg);
+    transform: scale(1.2) rotate(1080deg);
+}
+
+.contact-input {
+    width: 100%;
+    font-size: 0.938rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid #0E2431;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 993px) {
+        .badge {
+            width: 35px;
+            height: 35px;
+        }
+}
+
+
+@media screen and (max-width: 768px) {
+    .line {
+        width: 55%;
+    }
+    .contact {
+        width: 80%;
+    }
+}
