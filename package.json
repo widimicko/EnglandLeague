@@ -1,19 +1,24 @@
 {
-  "name": "submission2",
+  "name": "englandleague",
   "version": "1.0.0",
-  "description": "submission2",
-  "main": "service-worker.js",
+  "description": "",
+  "main": "push.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/widimicko/EnglandLeague.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "eslint": "^7.10.0",
-    "web-push": "^3.4.4"
+  "bugs": {
+    "url": "https://github.com/widimicko/EnglandLeague/issues"
   },
-  "dependencies": {
-    "idb": "^5.0.6"
+  "homepage": "https://github.com/widimicko/EnglandLeague#readme",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "web-push": "^3.4.4"
   }
 }

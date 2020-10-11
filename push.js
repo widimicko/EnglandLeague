@@ -13,10 +13,10 @@ webPush.setVapidDetails(
     vapidKeys.privateKey
 )
 let pushSubscription = {
-    "endpoint": "https://fcm.googleapis.com/fcm/send/cjqIfWTALbU:APA91bHJRdWxSsBi7dTLiKVyBFN9wELFFJUXt_93ks-fXt_jJ2FNfzH1-FvJVn8kp04WdORLCX5j87YGWO1b2rq-mWI_i1ls4tmzPtfYC-qcPISNRBHagp__8dtEsBqQCBdL-ELdZV5a",
+    "endpoint": "https://fcm.googleapis.com/fcm/send/drvlr88F-xw:APA91bEx87LiQgdww3__PT69csHs-GJNIxphsiK-jD3IFa-38QJv_x5Xq_BHrDiUly-4SwuaaOmtaPrcmKzM29vc50l_BR44fOXyJwNpBFZDwjgHTAIc56NJv1ieNTgiLR_NFVH2JrEF",
     "keys": {
-        "p256dh": "BHG9UCe7BRLiS02GneUdV+mzqB/qHyKZO+2Py2qZcmLIIr3IoZxL/nQGjMLDCLfOJAJz84mIzIJdP/05PT6cT/c=",
-        "auth": "3Zu+tE/00YNZFVyMJEXuIA=="
+        "p256dh": "BI4tMKnAez8VHT4JFlJqSJz4DZQjy/ki+ziqFHAEndszvw9r7yI0nhUzkCQAcct92V0L6vuzZhBhDITZKQ0Not0=",
+        "auth": "SuD9JGiPHisISd34v19whA=="
     }
 };
 let payload = 'Hello! Enjoy this notification!';
