@@ -13,13 +13,13 @@ webPush.setVapidDetails(
     vapidKeys.privateKey
 )
 let pushSubscription = {
-    "endpoint": "https://fcm.googleapis.com/fcm/send/drvlr88F-xw:APA91bEx87LiQgdww3__PT69csHs-GJNIxphsiK-jD3IFa-38QJv_x5Xq_BHrDiUly-4SwuaaOmtaPrcmKzM29vc50l_BR44fOXyJwNpBFZDwjgHTAIc56NJv1ieNTgiLR_NFVH2JrEF",
+    "endpoint": "https://fcm.googleapis.com/fcm/send/fa5SoTkxi9w:APA91bGIsQdfNWGBBKvz6BErJtWEQ15S0AMDFn_4tiOn2RYc4P_JmybVOd6mKE-8lgaYm_RPPAw9keITrNEsbO8BFx6vwNA06mU1ODYHcEzTuD2h94BgaCxW_MwqlmqpNKQiuOlM-FjJ",
     "keys": {
-        "p256dh": "BI4tMKnAez8VHT4JFlJqSJz4DZQjy/ki+ziqFHAEndszvw9r7yI0nhUzkCQAcct92V0L6vuzZhBhDITZKQ0Not0=",
-        "auth": "SuD9JGiPHisISd34v19whA=="
+        "p256dh": "BApF/QzOUkJJUG4J7l/fc0kbF953xgtQ6vxqE7CDNdzaLG3A92clm0SCZ9ghmOlrz2nnr/qE5qsvNhoBgaJo9so=",
+        "auth": "tHO2p2yHjFDKhiWMBPAkAA=="
     }
 };
-let payload = 'Hello! Enjoy this notification!';
+let payload = 'Hello! Its from EnglandLeague platform, just enjoy this notification!';
 let options = {
     gcmAPIKey: '28450369778',
     TTL: 60

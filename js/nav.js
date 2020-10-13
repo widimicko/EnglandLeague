@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     getStandings();
                 } else if (page === "favourite") {
                     showFavTeam();
-                } else if (urlTeamParam.length > 0) {
+                } else if (page === "team") {
                     getTeam(urlTeamParam);
                 }
 
@@ -61,17 +61,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 urlTeamParam = '';
             }
         };
-        
 
-        if (urlTeamParam.length > 0) {
-            xhttp.open('GET', '/pages/team.html');
-            xhttp.send();
-            return;
-        }
-        else {
-		    xhttp.open('GET', `/pages/${page}.html`);
-		    xhttp.send();
-	    }
+        xhttp.open('GET', `/pages/${page}.html`);
+        xhttp.send();
+	    
     }
     loadPage(page);
 });
