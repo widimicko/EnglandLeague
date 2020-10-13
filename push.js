@@ -13,10 +13,10 @@ webPush.setVapidDetails(
     vapidKeys.privateKey
 )
 let pushSubscription = {
-    "endpoint": "https://fcm.googleapis.com/fcm/send/fa5SoTkxi9w:APA91bGIsQdfNWGBBKvz6BErJtWEQ15S0AMDFn_4tiOn2RYc4P_JmybVOd6mKE-8lgaYm_RPPAw9keITrNEsbO8BFx6vwNA06mU1ODYHcEzTuD2h94BgaCxW_MwqlmqpNKQiuOlM-FjJ",
+    "endpoint": "https://fcm.googleapis.com/fcm/send/dzs5dYDAwA8:APA91bE9hBU-Y2cOZzuLArDkRCgyUIjKRGgyyxy-ir5nwe9CyZyMxushNcCB4GFS5W7GlP41NuBADqj_U6gHn1aIt8vqpK3oXM_5BmHddYkOxPAFvyCnO2Kzfevzz9ScN9EF2I0pvVI5",
     "keys": {
-        "p256dh": "BApF/QzOUkJJUG4J7l/fc0kbF953xgtQ6vxqE7CDNdzaLG3A92clm0SCZ9ghmOlrz2nnr/qE5qsvNhoBgaJo9so=",
-        "auth": "tHO2p2yHjFDKhiWMBPAkAA=="
+        "p256dh": "BIhBtws/oKHh27Pxg36b6nUauWGOHukADE172fq95BR64EYi79TbnQ57sJ6RYkE16O/9sBPsC01Nt8f1AS3kidk=",
+        "auth": "1DZhLOP5oNOkZsQZzXO1kA=="
     }
 };
 let payload = 'Hello! Its from EnglandLeague platform, just enjoy this notification!';
